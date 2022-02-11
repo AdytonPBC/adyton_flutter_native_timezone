@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_native_timezone_example/main.dart';
+import 'package:adyton_flutter_native_timezone_example/main.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
