@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Get the native timezone from ios.
                        DESC
-  s.homepage         = 'https://github.com/pinkfish/flutter_native_timezone'
+  s.homepage         = 'https://github.com/AdytonPBC/adyton_flutter_native_timezone'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'David Bennett' => 'pinkfishfrog@gmail.com' }
+  s.author           = { 'AdytonPBC' => 'opensource@adyton.io' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
