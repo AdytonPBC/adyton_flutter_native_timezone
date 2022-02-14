@@ -1,7 +1,3 @@
-## 2.0.2
-
-Add kotlin support for Flutter 2.10
-
 ## 2.0.1
 
 Improve pub.dev score

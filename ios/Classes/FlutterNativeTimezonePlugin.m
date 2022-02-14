@@ -3,7 +3,7 @@
 @implementation FlutterNativeTimezonePlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"adyton_flutter_native_timezone"
+      methodChannelWithName:@"flutter_native_timezone"
             binaryMessenger:[registrar messenger]];
   FlutterNativeTimezonePlugin* instance = [[FlutterNativeTimezonePlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];

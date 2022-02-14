@@ -61,7 +61,7 @@ class FlutterNativeTimezonePlugin : FlutterPlugin, MethodCallHandler {
     }
 
     private fun setupMethodChannel(messenger: BinaryMessenger) {
-        channel = MethodChannel(messenger, "adyton_flutter_native_timezone")
+        channel = MethodChannel(messenger, "flutter_native_timezone")
         channel.setMethodCallHandler(this)
     }
 }

@@ -3,17 +3,17 @@
 # Run `pod lib lint flutter_native_timezone.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'adyton_flutter_native_timezone'
+  s.name             = 'flutter_native_timezone'
   s.version          = '0.0.1'
-  s.summary          = 'A native timezone project.'
+  s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
-Get the native timezone from ios.
+A new flutter plugin project.
                        DESC
-  s.homepage         = 'https://github.com/AdytonPBC/adyton_flutter_native_timezone'
+  s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'AdytonPBC' => 'opensource@adyton.io' }
+  s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files     = 'Classes/**/*'
   s.dependency 'FlutterMacOS'
 
   s.platform = :osx, '10.11'

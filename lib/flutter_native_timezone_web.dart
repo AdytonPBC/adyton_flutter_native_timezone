@@ -11,7 +11,7 @@ import 'package:js/js.dart';
 class FlutterNativeTimezonePlugin {
   static void registerWith(Registrar registrar) {
     final MethodChannel channel = MethodChannel(
-      'adyton_flutter_native_timezone',
+      'flutter_native_timezone',
       const StandardMethodCodec(),
       registrar,
     );
@@ -29,7 +29,7 @@ class FlutterNativeTimezonePlugin {
         throw PlatformException(
             code: 'Unimplemented',
             details:
-                "The adyton_flutter_native_timezone plugin for web doesn't implement "
+                "The flutter_native_timezone plugin for web doesn't implement "
                 "the method '${call.method}'");
     }
   }

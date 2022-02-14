@@ -1,6 +1,6 @@
-# adyton_flutter_native_timezone (afn_timezone)
+# flutter_native_timezone
 
-A fork of the provided by Adyton PBC flutter plugin for getting the local timezone of the os.
+A flutter plugin for getting the local timezone of the os.
 
 ## Getting Started
 
